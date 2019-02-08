@@ -2,41 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Nick Rousias page</title>
+    <title>Nick Rousias personal page</title>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale-1.0"> 
 </head>
-<body>
-   <h1>Καλώς ήρθατε στην προσωπική μου σελίδα</h1>
-   
-   <nav>
-	<a href="page2.html">page 2</a> 
-	<a href="page3.html">page 3</a>
-	<a href="page4.html">page 4</a>
-   </nav>
-   
-   <figure>
-	<img src="images/nick.jpg" alt="nick" />
-	<figcaption>The real Me</figcaption>
-   </figure>
-    
-   
-   <h2>Images</h2>
-   <p>Do you want to see more pictures? Go to <a href="page2.html">page 2</a>. </p>
-	<figure>
-	<img src="images/moon.png" alt="moon" />
-	<figcaption>Chilling on the moon</figcaption>
-	</figure>
-   
-   <h2>Achievements</h2>
-   <p>Progress in this course (100%) <progress value="100" max="100"> </p>
-   <p>Progress in the Specialization capstone (20%) <progress value="20" max="100"></p>
-   <p>Progress in life years (33%) <progress value="33" max="100"></p>
-   
-   <h2>More About Me</h2>
-   <details>
-	<summary>My Childhood</summary>
-	<p>I grew up in Volos Greece. It is a small town but it is really nice, since it can combine mountain and sea.</p>
-   </details>
-	<p> <img src="http://www.intro-webdesign.com/images/newlogo.png" alt="wd4e"> This page was created by Nick Rousias &amp; Colleen van Lent. To learn more about web design, visit <a href="http://www.intro-webdesign.com">Intro to Web Design</a>.</p>
+
+<body class="body">
+	<header class="mainHeader">
+		<img src="images/nick.jpg" >
+			
+		<nav><ul>
+			<li class="active"><a href="#">Home</a></li>
+  			<li><a href="#">CV</a></li>
+  			<li><a href="#">Images</a></li>
+  			<li><a href="#">Contact</a></li>
+		</ul></nav>
+	</header>
 	
+	<div class="mainContext">
+		<div class="content">
+			<article class="topcontext">
+			 <header>
+				<h2><a href="#" title="First Post">First Post</a></h2>
+			</header>	
+			
+			<footer>
+				<p class="post-info">This post is written by Nick</p>
+			</footer>
+			
+			<content>
+				<p>mpla mpla mpla</p>
+				<p>mpla mpla mpla</p>
+				<p>mpla mpla mpla</p>
+			</content>
+			</article>
+			
+			<article class="bottomcontext">
+			 <header>
+				<h2><a href="#" title="Second Post">Second Post</a></h2>
+			</header>	
+			
+			<footer>
+				<p class="post-info">This post is written by Nick</p>
+			</footer>
+			
+			<content>
+				<p>mpla mpla mpla</p>
+				<p>mpla mpla mpla</p>
+				<p>mpla mpla mpla</p>
+			</content>
+			</article>
+		</div>
+	</div>
+   
+	<aside class="top-sidebar">
+			<article>
+				<h2>Top sidebar</h2>
+				<p>mpla mpla mpla</p>
+			</article>
+	</aside>
+	
+	<aside class="middle-sidebar">
+			<article>
+				<h2>Middle sidebar</h2>
+				<p>mpla mpla mpla</p>
+			</article>
+	</aside>
+	
+	<aside class="bottom-sidebar">
+			<article>
+				<h2>Bottom sidebar</h2>
+				<p>mpla mpla mpla</p>
+			</article>
+	</aside>
+   
+    <footer class="mainFooter">
+		<p>Copyright &copy; Nick Rousias </p>
+	</footer>
 </body>
 </html>
