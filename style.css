@@ -81,6 +81,17 @@ a:hover, a:active {
 	float: left;
 }
 
+.content img {
+	width: 8%;
+	height: auto;
+	margin: 2% 0%;
+}	
+
+.content table{
+	border-collapse: collapse;
+	text-align: center;
+}	
+
 .topcontext {
 	background-color: #FFF;
 	border-radius: 5px;
